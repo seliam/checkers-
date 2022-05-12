@@ -1,5 +1,6 @@
 package com.checkers.core.piece;
 
+import com.checkers.core.Board;
 import com.checkers.core.exceptions.InValidMove;
 import com.checkers.core.move.Jump;
 import com.checkers.core.move.Move;
@@ -120,7 +121,7 @@ public class King extends Piece{
         }
 
         for (int[] tempPiece :
-                tempPieces) {
+                tempPieces)6 {
             board.setPiece(tempPiece[0],tempPiece[1],null);  // Removes the temporary pieces
         }
 

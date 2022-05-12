@@ -1,5 +1,6 @@
 package com.checkers.core.piece;
 
+import com.checkers.core.Board;
 import com.checkers.core.move.Jump;
 import com.checkers.core.move.Move;
 import com.checkers.core.move.Position;
