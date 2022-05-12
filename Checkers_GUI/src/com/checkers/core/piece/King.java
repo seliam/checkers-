@@ -121,7 +121,7 @@ public class King extends Piece{
         }
 
         for (int[] tempPiece :
-                tempPieces)6 {
+                tempPieces) {
             board.setPiece(tempPiece[0],tempPiece[1],null);  // Removes the temporary pieces
         }
 
